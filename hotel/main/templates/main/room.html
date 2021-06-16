@@ -1,0 +1,56 @@
+{% extends 'main/layout.html' %}
+{% load static %}
+
+{% block title %}Комнаты{% endblock %}
+
+{% block content %}
+<div class="rooms">
+  <h1 class="h1_room">Номера</h1>
+  <div class="rooms_box">
+    <div class="rooms_list">
+      <div class="rooms_item1">
+        <div class="card" id="odnomest">
+          <img src="{% static 'main/img/номер1.png' %}" alt="" class="round_img" style="width: 450px; height: 350px; margin-left: 35%; margin-top: 2%">
+          <div class="container1" style="margin-left: 10px">
+            <h4 class="o" style="margin-top: 20px"><b class="odno">Одноместный номер</b></h4>
+            <p class="od">Функциональный и комфортный номер для бережливых путешественников позволяет сэкономить на проживании.</p>
+            <div class="card" id="b">
+          <img src="{% static 'main/img/номер2.png' %}" alt="" class="round_img" style="width: 450px; height: 350px; margin-left: 35%; margin-top: 2%">
+          <div class="container2" style="margin-left: 10px">
+            <h4 class="v" style="margin-top: 20px"><b class="vt">Двухместный номер</b></h4>
+            <p class="vtoroi">Функциональный и комфортный номер для бережливых путешественников позволяет сэкономить на проживании.</p>
+
+            <div class="card" id="tr">
+              <img src="{% static 'main/img/номер3.png' %}" alt="" class="round_img" style="width: 450px; height: 350px; margin-left: 35%; margin-top: 2%">
+             </div>
+          </div>
+              <div class="container3" style="margin-left: 5px">
+                <h4 class="t" style="margin-top: 20px"><b class="tr">Полюкс</b></h4>
+                <p class="treti">Отличный номер для комфортного двухместного размещения.</p>
+                <div class="card" id="het">
+
+                  <img src="{% static 'main/img/номер4.png' %}" alt="" class="round_img" style="width: 450px; height: 350px; margin-left: 35%; margin-top: 2%">
+                  <div class="container4" style="margin-left: 5px">
+                    <h4 class="h" style="margin-top: 20px"><b class="ht" >Люкс</b></h4>
+                    <p class="hetvert">Роскошный номер с выделенной зоной отдыха.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+    <footer class="footer">
+       <div class="footer_box">
+           <ul class="footer_list">
+               <li class="footer_item">
+                   <div>© МатСаф</div>
+                   <div>2021 Санкт-Петербург</div>
+               </li>
+           </ul>
+        </div>
+    </footer>
+</div>
+</div>
+{% endblock %}

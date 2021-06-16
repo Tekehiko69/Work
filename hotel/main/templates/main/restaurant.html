@@ -1,0 +1,71 @@
+{% extends 'main/layout.html' %}
+{% load static %}
+{% block title %}Ресторан{% endblock %}
+
+
+{% block content %}
+<div class="restaurant">
+    <h1 style="margin-top: 10px; text-align: center;">Ресторан</h1>
+    <div class="restaurant_box">
+        <div class="restaurant_item1">
+            <div class="description_menu">
+                <h1 style="margin-left:20px;">Завтрак</h1>
+                <p>
+                    Круглый год наш Отель работает по тарифу
+                    «ЗАВТРАК». Тариф идеально подходит для гостей,
+                    которые предпочитают максимум времени
+                    проводить за пределами Отеля. В период с 1 января
+                    по 1 июня и с 1 октября по 31 декабря Завтрак
+                    проходит в формате «Заказного меню», а в летний
+                    период с 1 июня по 30 сентября - в формате
+                    «Шведский стол». Если в Отеле проживает менее 30
+                    человек, то формат питания меняется на «Сет-меню»
+                    - Вам на выбор будет предоставлено 2 вида блюд.
+                </p>
+            </div>
+            <div class="img_breakfast1" >
+                <img src="{% static 'main/img/breakfast1.jpg' %}" alt="фото1" class="photo_menu1">
+            </div>
+            <div class="img_breakfast1" >
+                <img src="{% static 'main/img/breakfast2.jpg' %}" alt="фото2" class="photo_menu2">
+            </div>
+            <div class="img_obed" >
+                <img src="{% static 'main/img/obed1.jpg' %}" alt="фото1" class="photo_menu1">
+            </div>
+            <div class="img_obed" >
+                <img src="{% static 'main/img/obed2.jpg' %}" alt="фото2" class="photo_menu2">
+            </div>
+            <div class="description_menu2">
+                <h1 style="margin-left:20px;">Полный пансион</h1>
+                <p>
+                    В курортный сезон, в горячую пору изобилия
+                    местных фруктов и овощей, наш Отель предлагает
+                    своим гостям только самое лучшее - тариф
+                    «ПОЛНЫЙ ПАНСИОН»! С этим тарифом вы сможете
+                    наслаждаться отдыхом и не думать о лишних
+                    хлопотах. Мы предлагаем трехразовое питание
+                    по системе «Шведский стол» с ассортиментом
+                    из более 25 наименований блюд. Вы точно останетесь довольны нашим питанием.
+                </p>
+            </div>
+        </div>
+        <div class="restaurant_item2">
+            <h2>График работы</h2>
+            <p>ЗАВТРАК С 7:30 ДО 10:00</p>
+            <p>ОБЕД С 13:00 ДО 15:00</p>
+            <p>УЖИН С 18:00 ДО 20:00</p>
+        </div>
+
+    </div>
+    <footer class="footer">
+       <div class="footer_box">
+           <ul class="footer_list">
+               <li class="footer_item">
+                   <div>© МатСаф</div>
+                   <div>2021 Санкт-Петербург</div>
+               </li>
+           </ul>
+        </div>
+    </footer>
+</div>
+{% endblock %}

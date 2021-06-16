@@ -1,0 +1,19 @@
+{% extends 'main/layout.html' %}
+
+{% block title %}Log-in{% endblock %}
+
+{% block content %}
+<div class="register-page">
+  <h1 class="register_h1">Регистрация</h1>
+  <div class="register_box">
+    <div class="register_item1">
+      <form method="post">
+        {% csrf_token %}
+        {{ user_form.as_p }}
+        <span>{{ error }}</span>
+        <p><input type="submit" value="Создать аккаунт"></p>
+      </form>
+    </div>
+  </div>
+</div>
+{% endblock %}

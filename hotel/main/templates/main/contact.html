@@ -1,0 +1,37 @@
+{% extends 'main/layout.html' %}
+{% load static %}
+
+{% block title %}Контакты{% endblock %}
+
+{% block content %}
+<div class="contact_main">
+  <div class="contact_box">
+    <h1>Контакты</h1>
+    <div class="contact_list">
+      <div class="contact_item" style="margin-left: 10%">
+          <img src="{% static 'main/img/contact.png' %}" alt="фото" class="contact">
+      </div>
+    </div>
+    <br>
+    <h1></h1>
+      <div class="google_map" style="margin-left: 26%; margin-top: 180px">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.316223472113!2d30.305171618906947!3d59.94348772034763!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469631ef43947d4d%3A0x855102817086619e!2z0JfQtNCw0L3QuNC1INCR0LjRgNC20Lg!5e0!3m2!1sru!2sru!4v1623263810986!5m2!1sru!2sru" width="700" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    <div class="address_list" style="margin-left: 22%">
+      <div class="address_item" style="color: black">
+        <p>г. Санкт-Петербург, пер. Гривцова, д. 6 литер В (во дворе дома №6)</p>
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+       <div class="footer_box">
+           <ul class="footer_list">
+               <li class="footer_item">
+                   <div>© МатСаф</div>
+                   <div>2021 Санкт-Петербург</div>
+               </li>
+           </ul>
+        </div>
+    </footer>
+</div>
+{% endblock %}

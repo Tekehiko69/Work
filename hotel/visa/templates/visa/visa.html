@@ -1,0 +1,45 @@
+{% extends 'main/layout.html' %}
+
+{% block title %}Визовая поддержка{% endblock %}
+
+{% block content %}
+<div class="booking_main">
+    <div class="booking_box">
+        <div class="booking_list">
+            <div class="booking_input">
+                <h1 class="booking_h1">Визовая поддержка</h1>
+                <form method="post">
+                    {% csrf_token %}
+                    <br>
+                    {{ form.entry }}<br>
+                    {{ form.departure }}<br>
+                    {{ form.guest }}<br>
+                    {{ form.email }}<br>
+                    {{ form.citizenship }}<br>
+                    {{ form.city_of_visit }}<br>
+                    {{ form.hotel }}<br>
+                    {{ form.goal_of_visit }}<br>
+                    <span>{{ error }}</span>
+                    <div>
+                        <p>Я подтверждаю данные <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="..." required></p>
+                        <div class="booking_send">
+                            <button class="btn btn-success" type="submit" style="background-color: #DDA0DD; border-bottom-color: black; border-color: black; color: black">Отправить заявку</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+       <div class="footer_box">
+           <ul class="footer_list">
+               <li class="footer_item">
+                   <div>© МатСаф</div>
+                   <div>2021 Санкт-Петербург</div>
+               </li>
+           </ul>
+        </div>
+    </footer>
+</div>
+
+{% endblock %}

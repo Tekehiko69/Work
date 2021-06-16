@@ -1,0 +1,29 @@
+{% extends 'main/layout.html' %}
+
+{% block title %}Мои бронирования{% endblock %}
+
+
+{% block content %}
+<div class="show_booking_page">
+  <h1 class="show_h1">Ваши бронирования</h1>
+  <div class="show_box">
+    <div class="show_item">
+        {% if show %}
+          {% for el in show %}
+            <div class="alert alert-warning">
+              {{ el.entry }}<br>
+              {{ el.departure }}<br>
+              {{ el.room }}<br>
+              {{ el.email }}<br>
+              <!--<button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">Отменить бронь</button> -->
+            </div>
+          {% endfor %}
+        {% else %}
+            <p>У вас пока что нет брони</p>
+        {% endif %}
+    </div>
+  </div>
+</div>
+
+
+{% endblock %}

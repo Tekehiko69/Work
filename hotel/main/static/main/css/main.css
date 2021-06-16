@@ -1,0 +1,366 @@
+.switch {display: inline; }
+
+.round_img{
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+    margin-left: 12%;
+}
+
+.navbar{
+    text-align: center;
+}
+
+.round_img{
+    margin-right: 11%;
+}
+
+.nav-link{
+    margin-right: 15px;
+
+}
+
+#register{
+    margin-left: 55%;
+}
+.btn-info{
+    margin-left: 0.5%;
+}
+
+.btn-light{
+    margin-left: 12%;
+}
+
+.login_h1{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.login_box{
+    margin-top: 40px;
+    margin-left: 40%;
+}
+
+
+.address_item {
+    margin-left: 10%;
+
+}
+
+
+.p{
+    margin-bottom: 30%;
+}
+
+
+.contact_item {
+    padding: 20px;
+    background: #c8a0c78c!important;
+    border: #c8a0c78c!important;
+    margin-right: 65px;
+}
+
+.gallery_list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-basic: 160px;
+
+}
+
+.bg-light {
+    background-color: #DDA0DD!important;
+}
+
+.gallery h1{
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+.gallery_box{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.gallery_list{
+    list-style-type: none;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+
+.ph1{
+    width: 340px;
+    height: 330px;
+    margin-top: 20px;
+
+}
+
+
+.footer_box{
+    background: black;
+    height: 70px;
+}
+
+.footer_item{
+    color: white;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.footer_list{
+    list-style-type: none;
+}
+
+
+.h1_main{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.main_box_item1 {
+    padding: 20px;
+    background: #c8a0c78c;
+}
+
+.main_box1{
+    height: 100px;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.main_box_item2 {
+    padding: 20px;
+    background: #c8a0c78c;
+    text-align: center;
+    margin-top: 50px;
+
+}
+.h1_main2{text-align:center;}
+.h1_room{text-align:center;}
+
+
+
+
+.main_box2{
+
+    height: 100px;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.header{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.gallery_box{
+    width: 75%;
+    margin: 0 auto;
+    padding: 20px;
+    background: #DDA0DD;
+
+}
+
+.contact_list {
+    height: 100px;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.contact_item{
+    padding: 20px;
+    background: grey;
+    border: 5px solid black;
+}
+
+.contact_box h1{
+    text-align: center;
+}
+
+.google_map{
+    margin-left: 55%;
+}
+
+.address_item{
+    margin-left: 15%;
+}
+
+.booking_box{
+    height: 100px;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.booking_h1{
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.hotel_photo{
+    width: 1000px;
+    height: 550px;
+    margin-left: 10px
+}
+
+.booking_main{
+    display: flex;
+    flex-direction: column;
+}
+
+.booking_box{
+    flex: 1;
+}
+
+.register_h1{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.register_box{
+    margin-top: 30px;
+    margin-left: 40%;
+}
+
+.card{
+    background-color: #c8a0c78c!important;
+}
+
+.odno{
+    margin-left: 42%;
+    font-style: italic;
+    background: linear-gradient(white, plum);
+    font-size: 2rem;
+    margin-left: 38%;
+    margin-bottom: 600%!important;
+    background: #DDA0DD;
+    border-style: dotted;
+}
+
+.od{
+    font-style: italic;
+    font-size: 1rem;
+    margin-left: 22%;
+}
+
+.vt{
+    margin-left: 3%;
+    font-style: italic;
+    background: linear-gradient(white, plum);
+    font-size: 2rem;
+    margin-left: 38%;
+    margin-bottom: 600%!important;
+    background: #DDA0DD;
+    border-style: dotted;
+}
+
+.vtoroi{
+    font-style: italic;
+    font-size: 1rem;
+    margin-left: 22%;
+}
+
+.tr{
+    margin-left: 42%;
+    font-style: italic;
+    background: linear-gradient(white, plum);
+    font-size: 2rem;
+    margin-left: 45%;
+    margin-bottom: 600%!important;
+    background: #DDA0DD;
+    border-style: dotted;
+}
+
+.treti{
+    font-style: italic;
+    font-size: 1rem;
+    margin-left: 33%;
+}
+
+.ht{
+    margin-left: 42%;
+    font-style: italic;
+    background: linear-gradient(white, plum);
+    font-size: 2rem;
+    margin-left: 47%;
+    margin-bottom: 600%!important;
+    background: #DDA0DD;
+    border-style: dotted;
+}
+
+.hetvert{
+     font-style: italic;
+    font-size: 1rem;
+    margin-left: 38%;
+}
+
+.restaurant_box {
+    background-color: #DDA0DD;
+    margin: 0 auto;
+    width: 75%;
+}
+
+.restaurant_item1{
+    display: flex;
+    flex-flow: row wrap;
+
+}
+
+.photo_menu1{
+    margin-left: 10%;
+    width: 250px;
+    height: 250px;
+    margin-top: 15%;
+}
+.photo_menu2{
+    margin-left: 20%;
+    width: 250px;
+    height: 250px;
+    margin-top: 15%;
+
+}
+
+
+.description_menu{
+    background: #c37dc2;
+    margin-left: 20px;
+    width: 49%;
+    margin-top: 30px;
+}
+.description_menu2{
+    background: #c37dc2;
+    margin-left: 7%;
+    width: 48%;
+    margin-top: 30px;
+}
+.description_menu2 p{
+    margin-left: 10px;
+}
+
+.description_menu p{
+    margin-left: 10px;
+}
+
+.btn-group {
+    margin-left: 60%;
+}
+
+.restaurant_item2{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.service_list {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 auto;
+    width:75%;
+}
+
+.img_service{
+    width: 260px;
+    height: 170px;
+}

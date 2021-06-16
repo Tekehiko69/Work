@@ -1,0 +1,32 @@
+{% extends 'main/layout.html' %}
+
+{% block title %}Мои бронирования{% endblock %}
+
+
+{% block content %}
+<div class="sho_visa_page">
+  <h1 class="sho_h1">Ваши заявки</h1>
+  <div class="sho_box">
+    <div class="sho_item">
+        {% if sho %}
+          {% for el in sho %}
+            <div class="alert alert-warning">
+              Дата въезда: {{ el.entry }}<br>
+              Дата выезда: {{ el.departure }}<br>
+              Количесвто гостей: {{ el.guest }}<br>
+              Почта: {{ el.email }}<br>
+              Гражданство: {{ el.citizenship }}<br>
+              Город посещения: {{ el.city_of_visit }}<br>
+              Отель: {{ el.hotel }}<br>
+              Цель визита: {{ el.goal_of_visit }}<br>
+              <!--<button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">Отменить бронь</button> -->
+            </div>
+          {% endfor %}
+        {% else %}
+            <p>У вас пока что нет заявок</p>
+        {% endif %}
+    </div>
+  </div>
+</div>
+
+{% endblock %}

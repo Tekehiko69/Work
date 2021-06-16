@@ -1,0 +1,35 @@
+{% extends 'main/layout.html' %}
+{% load static %}
+
+{% block title %}Галерея{% endblock %}
+
+
+{% block content %}
+<div class="gallery">
+    <h1 class="h1_gallery">Галерея</h1>
+    <br>
+    <div class="gallery_box">
+        <ul class="gallery_list">
+            <li class="ph"><img src="{% static 'main/img/s.png' %}" alt="фото" class="ph1"></li>
+            <li class="ph"><img src="{% static 'main/img/ss.png' %}" alt="фото" class="ph1"></li>
+            <li class="ph"><img src="{% static 'main/img/sss.png' %}" alt="фото" class="ph1"></li>
+            <li class="ph"><img src="{% static 'main/img/ssss.png' %}" alt="фото" class="ph1"></li>
+            <li class="ph"><img src="{% static 'main/img/sssss.png' %}" alt="фото" class="ph1"></li>
+            <li class="ph"><img src="{% static 'main/img/ssssss.png' %}" alt="фото" class="ph1"></li>
+            <li class="ph"><img src="{% static 'main/img/номер8.jpg' %}" alt="фото" class="ph1"></li>
+            <li class="ph"><img src="{% static 'main/img/номер6.jpg' %}" alt="фото" class="ph1"></li>
+            <li class="ph"><img src="{% static 'main/img/номер7.jpg' %}" alt="фото" class="ph1"></li>
+        </ul>
+    </div>
+    <footer class="footer">
+       <div class="footer_box">
+           <ul class="footer_list">
+               <li class="footer_item">
+                   <div>© МатСаф</div>
+                   <div>2021 Санкт-Петербург</div>
+               </li>
+           </ul>
+        </div>
+    </footer>
+</div>
+{% endblock %}

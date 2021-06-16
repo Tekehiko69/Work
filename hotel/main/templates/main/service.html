@@ -1,0 +1,93 @@
+{% extends 'main/layout.html' %}
+
+{% block title %}Доп.услуги{% endblock %}
+{% load static %}
+{% block content %}
+<div class="service">
+    <h1 style="text-align: center; margin-top: 20px;">Дополнительные услуги</h1>
+    <div class="service_box" style="margin-top: 30px;">
+        <div class="service_list">
+            <div >
+                <img src="{% static 'main/img/service1.jpg' %}" alt="фото1" class="img_service">
+            </div>
+            <div style="width:70%; margin-left: 30px">
+                <h3 >Завтрак</h3>
+                <p>
+                    Наш отель предоставляет бесплатный завтрак всем постояльцам отеля. Завтрак с 7:30 до 10:00. На завтрак
+                    подаются блины, каши, омлеты, чай, кофе и многое другое.
+                </p>
+            </div>
+        </div>
+        <br>
+        <div class="service_list">
+            <div >
+                <img src="{% static 'main/img/service2.jpg' %}" alt="фото1" class="img_service">
+            </div>
+            <div style="width:70%; margin-left: 30px">
+                <h3>Трансфер и экскурсии</h3>
+                <p>
+                    Мы будем рады организовать для Вас комфортную встречу в аэропорту или на вокзале, индивидуальную экскурсию по Петербургу и пригородам, аренду автомобиля с водителем. Гарантируем профессиональных гидов и вежливых пунктуальных водителей!
+                </p>
+            </div>
+        </div>
+        <br>
+        <div class="service_list">
+            <div >
+                <img src="{% static 'main/img/service3.jpg' %}" alt="фото1" class="img_service">
+            </div>
+            <div style="width:70%; margin-left: 30px">
+                <h3>Визовая поддержка</h3>
+                <p>
+                    Наш отель оказывает визовую поддержку для всех иностранцев. Что бы оставить заявку, необходимо зарегистрироваться на сайте отеля и заполнить форму.
+                </p>
+            </div>
+        </div>
+        <br>
+        <div class="service_list">
+            <div >
+                <img src="{% static 'main/img/service4.jpg' %}" alt="фото1" class="img_service">
+            </div>
+            <div style="width:70%; margin-left: 30px">
+                <h3>Зона для курения</h3>
+                <p>
+                    В отеле есть оборудованное место для курящих постояльцев. Курение в номерах категорически запрещено.
+                </p>
+            </div>
+        </div>
+        <br>
+        <div class="service_list">
+            <div >
+                <img src="{% static 'main/img/service5.jpg' %}" alt="фото1" class="img_service">
+            </div>
+            <div style="width:70%; margin-left: 30px">
+                <h3>Охраняемая парковка и аренда транспорта</h3>
+                <p>
+                    У отеля имеется охраняемая парковка доступная только постояльцам. Так же есть аренда транспортных средств на время проживания постояльца.
+                </p>
+            </div>
+        </div>
+        <br>
+        <div class="service_list">
+            <div >
+                <img src="{% static 'main/img/service6.jpg' %}" alt="фото1" class="img_service">
+            </div>
+            <div style="width:70%; margin-left: 30px">
+                <h3>Мероприятия и банкеты</h3>
+                <p>
+                    Отель может организовать мероприятия и банкеты.
+                </p>
+            </div>
+        </div>
+        <footer class="footer">
+       <div class="footer_box">
+           <ul class="footer_list">
+               <li class="footer_item">
+                   <div>© МатСаф</div>
+                   <div>2021 Санкт-Петербург</div>
+               </li>
+           </ul>
+        </div>
+    </footer>
+    </div>
+</div>
+{% endblock %}
